@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap");
+
+body {
+  max-width: 500px;
+  margin: auto;
+  background-color: #7689de;
+}
+
+.h1 {
+  font-family: "Unbounded", cursive;
+}
+
+.form-header {
+  background-color: slateblue;
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.form {
+  padding-top: 40px;
+}
+#root {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  margin-top: 120px;
+}
+
+.form-input {
+  margin-right: 10px;
+  height: 20px;
+  border: none;
+  border-radius: 7px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  border: 5px slateblue solid;
+  border-radius: 7px;
+  margin-top: 10px;
+  min-height: 70px;
+}
+
+.checkbox {
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+  border: none;
+}
+
+.checkbox:checked + h4.taskName-Time {
+  text-decoration: line-through wheat 3px;
+}
+
+.buttons {
+  width: 70px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.img-button {
+  width: 30px;
+  height: 30px;
+}
+
+.add-button {
+  border: none;
+  border-radius: 7px;
+  height: 20px;
+  width: 50px;
+  cursor: pointer;
+}
+.taskName-Time {
+  width: auto;
+  margin-left: 15px;
+}
+.edited-input {
+  width: 110px;
+  height: 20px;
+  border: none;
+  border-radius: 7px;
+}
